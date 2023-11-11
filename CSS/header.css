@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap');
+
+*{
+    --dark-blue: #2F24E6;
+    --purple: #6E25E6;
+    --blue: #2559E6;
+    --light-blue: #2594E6;
+    --pink: #AD25E6;
+
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(to bottom, var(--light-blue), var(--purple));
+    text-align: center;
+    position: relative; /* Defina a posição como relative */
+    height: 250px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img, button, h1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+header a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: var(--dark-blue);
+    border: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-inline: 20px;
+    padding: 10px 20px; /* Ajustei o padding para um tamanho mais proporcional */
+    box-shadow: -2px 2px 0px var(--pink); /* Ajustei a sombra para o novo tamanho do botão */
+    font-weight: 300;
+}
+
+button:hover {
+    background-color: var(--blue);
+}
+
+img {
+    height: 200px;
+    margin-right: 30px;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
